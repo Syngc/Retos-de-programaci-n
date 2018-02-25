@@ -3,7 +3,6 @@ import math
 def sumaCuadrados(x):
     suma = 0
     for i in range(1,x + 1):
-        print(i)
         suma = suma + math.pow(i,2)
     return suma
 
